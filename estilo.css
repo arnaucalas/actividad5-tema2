@@ -1,0 +1,15 @@
+.contenedor {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative; /* Establece un contexto para el elemento absoluto */
+}
+
+.absoluto {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    position: absolute; /* Se posiciona en relación al contenedor */
+    top: 20px; /* Mueve la caja 50px desde la parte superior del contenedor */
+    left: 30px; /* Mueve la caja 50px desde la parte izquierda del contenedor */
+}
